@@ -1,0 +1,180 @@
+::-webkit-scrollbar{
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(168, 168, 168);
+  border-radius: 5px;
+}
+
+* {
+  margin: 0;
+}
+
+.main{
+  display: flex;
+  max-width: 1556px;
+  margin: auto;
+}
+
+.first-container{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(45, 72, 97);
+}
+
+.all-icons{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 25px 15px 25px;
+  color: rgb(187, 187, 187);
+  font-size: 10px;
+  gap: 0.5rem;
+}
+
+.all-icons:hover{
+  background-color: rgb(37, 59, 80);
+  cursor: pointer;
+}
+
+.all-icons:active{
+  background-color: rgb(30, 48, 65);
+  transition: 100ms ease;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100vh;
+}
+
+.input-one{
+  display: flex;
+  padding: 10px;
+}
+
+.input{
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  border-radius: 20px;
+  background-color: rgb(231, 231, 231);
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+
+.second-container-main{
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.second-container{
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  justify-content: space-between;
+}
+
+.second-container:hover{
+  cursor: pointer;
+  background-color: rgb(236, 236, 236);
+}
+
+.first-inside-second-container{
+  display: flex;
+}
+
+.logo{
+  padding: 20px;
+  background-color: lightcoral;
+  border-radius: 100px;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.logo-two{
+  display: flex;
+  border-radius: 100px;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.inline_tv{
+  object-fit: contain;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+}
+
+.main-texts{
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin-top: 12px;
+  position: relative;
+  width: 31rem;
+}
+
+.link-div{
+  display: flex;
+}
+
+.link{
+  color: gray;
+  font-weight: lighter;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+}
+
+.second-inside-second-container{
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.image-and-data{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: gray;
+}
+
+.pin-icon{
+  display: flex;
+  width: 15px;
+}
+
+.third-container{
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  background-image: url(essentials/01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Select-div{
+  display: flex;
+}
+
+.Select{
+  color: rgba(194, 194, 194, 0.774);
+  font-family: sans-serif;
+  font-size: 12px;
+  background-color: rgba(56, 56, 56, 0.568);
+  padding: 5px 25px;
+  border-radius: 20px;
+}
